@@ -1,0 +1,231 @@
+:root{
+  --darkBlue:#5755FE;
+  --whiteColor:white;
+  --lightBlue:#8B93FF;
+  --pinkish:#FF71CD;
+}
+
+/* light-shade - #FFF7FC - rgb(255,247,252)
+light-blue - #8B93FF - rgb(139,147,255)
+dark-blue - #5755FE - rgb(87,85,254)
+pink - #FF71CD - rgb(255,113,205) */
+
+/* navigation section starts here  */
+
+@media only screen and (max-width: 56.25em) {
+    .navigation__button {
+      top: 4rem;
+      right: 4rem;
+    }
+  }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__button {
+      top: 3rem;
+      right: 3rem;
+    }
+  }
+  @media only screen and (max-width: 56.25em) {
+    .navigation__background {
+      top: 4.5rem;
+      right: 4.5rem;
+    }
+  }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__background {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
+  }
+
+  /* navigation section ends here  */
+
+  /* header section starts here  */
+  @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or
+  (-webkit-clip-path: polygon(0 0)) {
+  .header {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 95vh;
+  }
+  
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+  only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+  only screen and (min-width: 125em) {
+  .header {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(rgba(139,147,255, 0.8)),
+        to(rgba(87,85,254, 0.8))
+      ),
+      url(../img/hero.jpg);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(139,147,255, 0.8),
+        rgba(87,85,254, 0.8)
+      ),
+      url(../img/hero.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .header {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+ 
+}
+@media only screen and (max-width: 37.5em) {
+    .heading-primary--main {
+      letter-spacing: 1rem;
+      font-family: 5rem;
+    }
+  }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary--sub {
+      letter-spacing: 0.5rem;
+    }
+  }
+
+  @media (max-width:400px){
+    .home-team-div {
+      width: 100%;
+      height: 30vh;
+    }
+  }
+ 
+
+/* header section ends here  */
+
+/* Works section in home page  */
+@media (max-width:400px){
+
+   .card-container .card:first-child,
+   .work-section > h3 {
+     margin-top: -120px;
+   }
+ 
+   .card-container .card {
+     width: 80%;
+     margin: 0 auto 30px;
+   }
+}
+
+  /* contact us page - mobile responsiveness  */
+  @media (max-width:400px){
+    .contact-us-container {
+      display: block;
+    }
+    .contact-address-container > div {
+      width: 70vw;
+      margin: 1rem;
+    }
+    .form-container > input,
+    .form-container textarea {
+      width: 80%;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      width: 100%;
+      gap: 1rem;
+      background-color: var(--boxBgColor);
+      /* padding: 3rem; */
+      border-radius: 0.2rem;
+      box-shadow: 3px 3px 7px black;
+    }
+  
+  }
+
+  /* services page  */
+
+  @media only screen and (max-width: 56.25em) {
+    .section-stories {
+      padding: 10rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .u-margin-bottom-big {
+      margin-bottom: 5rem !important;
+    }
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 3rem;
+    }
+  }
+  @media only screen and (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .row:not(:last-child) {
+      margin-bottom: 6rem;
+    }
+  }
+  @media only screen and (max-width: 56.25em) {
+    .row {
+      max-width: 50rem;
+      padding: 0 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 6rem;
+    }
+  }
+  @media only screen and (max-width: 56.25em) {
+    .row [class^="col-"] {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    .story {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem;
+    }
+  }
+  @media only screen and (max-width: 37.5em) {
+    .story {
+      -webkit-transform: skewX(0);
+      transform: skewX(0);
+    }
+  }
+  @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or
+  (-webkit-clip-path: polygon(0 0)) {
+  .story__shape {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    border-radius: none;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .story__shape {
+    -webkit-transform: translateX(-3rem) skewX(0);
+    transform: translateX(-3rem) skewX(0);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .story__text {
+    -webkit-transform: skewX(0);
+    transform: skewX(0);
+  }
+}
+
+/* services section ends here  */
+
+
+ 
