@@ -1043,6 +1043,7 @@ color:#1a1a1a
     to(var(--darkBlue))
   );
   background-image: linear-gradient(to right, var(--lightBlue), var(--darkBlue));
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;

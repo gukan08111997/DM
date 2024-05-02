@@ -249,8 +249,8 @@ margin-top: 90px;
   /* contact us page - mobile responsiveness  */
   @media (max-width:40rem){
     .contact-us-section{
-      -webkit-clip-path: polygon(0 5vh, 100% 0, 100% 95%, 0 100%) !important;
-      clip-path: polygon(0 5vh, 100% 0, 100% 95%, 0 100%) !important;
+      -webkit-clip-path: polygon(0 12vh, 100% 0, 100% 95%, 0 100%) !important;
+      clip-path: polygon(0 12vh, 100% 0, 100% 95%, 0 100%) !important;
     }
     .contact-text{
       font-size: 2.5rem !important;
