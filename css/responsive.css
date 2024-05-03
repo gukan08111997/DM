@@ -85,7 +85,7 @@ pink - #FF71CD - rgb(255,113,205) */
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
     letter-spacing: 1rem;
-    font-family: 5rem;
+ 
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -104,11 +104,11 @@ pink - #FF71CD - rgb(255,113,205) */
   .heading-primary--main {
     margin-top: 100px;
     font-size: 2.5rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
   }
   .heading-primary--sub {
     font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
   }
 }
 
@@ -135,7 +135,7 @@ pink - #FF71CD - rgb(255,113,205) */
   .caption-div h1 {
     margin-top: 50px;
     font-size: 4rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
   }
 }
 
